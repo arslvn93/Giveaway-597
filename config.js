@@ -37,7 +37,7 @@ const config = {
   "prize": {
     "images": [
       {
-        "src": "https://salesgeniusportal.s3.ca-central-1.amazonaws.com/giveaways/generations/56f7x6w0rxrmw0cydfz8rbpgq0.jpg",
+        "src": "https://salesgeniusportal.s3.ca-central-1.amazonaws.com/TeamUploads/upload-NiagaraParksGolfbackgro.jpg",
         "alt": "Golfer teeing off on a lush Niagara course"
       },
       {
@@ -173,7 +173,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1780411764326_0",
+      "id": "q_auto_1780411963713_0",
       "questionText": "What's your current situation?",
       "options": [
         {
@@ -195,7 +195,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1780411764326_1",
+      "id": "q_auto_1780411963713_1",
       "questionText": "What are you looking to do?",
       "options": [
         {
@@ -221,7 +221,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1780411764326_2",
+      "id": "q_auto_1780411963713_2",
       "questionText": "When are you planning to move?",
       "options": [
         {
