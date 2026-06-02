@@ -173,7 +173,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1780411143584_0",
+      "id": "q_auto_1780411764326_0",
       "questionText": "What's your current situation?",
       "options": [
         {
@@ -195,7 +195,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1780411143584_1",
+      "id": "q_auto_1780411764326_1",
       "questionText": "What are you looking to do?",
       "options": [
         {
@@ -221,7 +221,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1780411143585_2",
+      "id": "q_auto_1780411764326_2",
       "questionText": "When are you planning to move?",
       "options": [
         {
@@ -267,7 +267,7 @@ const config = {
     "agentContact": {
       "name": "Natalie Vanderwier",
       "title": "REALTOR",
-      "phone": "905-650-9761",
+      "phone": "(905) 650-9761",
       "email": "natalie@northgroup.com"
     },
     "footerDisclaimer": "This giveaway is sponsored by Natalie Vanderwier at Real Broker and is not affiliated with Niagara Parks Golf, Instagram, or Facebook. No purchase necessary. Ontario residents only. Must be 18+. One entry per person. Entries close 2026-07-01 at 11:59 PM ET. Winner selected at random on 2026-07-01. Odds depend on number of entries. By entering, you agree to our Privacy Policy.",
@@ -278,7 +278,7 @@ const config = {
     "brokerageName": "Real Broker",
     "address": "130 King St W, 1800B, Toronto, ON, M5K 2A1, Canada",
     "email": "natalie@northgroup.com",
-    "phone": "905-650-9761",
+    "phone": "(905) 650-9761",
     "copyrightOwner": "Natalie Vanderwier"
   },
   "deploymentInfo": {
