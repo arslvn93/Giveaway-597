@@ -28,16 +28,11 @@ const config = {
     "primaryColorOverride": "",
     "secondaryColorOverride": "#FFEE58",
     "ghlWebhookUrl": "https://services.leadconnectorhq.com/hooks/bJbBMjcW619cJrLUJ3kY/webhook-trigger/3yNsurfrt9oBUtRBuygb",
-    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate",
     "facebookPixelId": "1057475448873422",
+    "turnstileSiteKey": "",
     "salesGeniusAppApi": "",
-    "followUpBossEmail": ""
-  },
-  "thankYouPage": {
-    "pageTitle": "Thank You for Your Entry!",
-    "headerText": "You're In the Running!",
-    "mainMessage": "Your entry for the <strong>Niagara Parks Golf + Dining Experience</strong> is in. We will draw the winner on July 1, 2026 and contact them by email and phone. Good luck!",
-    "socialPromptText": "Watch your inbox on July 1. Follow @natalie_vanderwier for the winner post."
+    "followUpBossEmail": "",
+    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate"
   },
   "prize": {
     "images": [
@@ -54,7 +49,7 @@ const config = {
         "alt": "Fairway with trees and river in the distance"
       },
       {
-        "src": "https://salesgeniusportal.s3.ca-central-1.amazonaws.com/giveaways/generations/hwx3zj8vfxrmr0cydg0bsgjg4g.jpg",
+        "src": "https://salesgeniusportal.s3.ca-central-1.amazonaws.com/TeamUploads/upload-NiagaraParksGolfbackground.jpg",
         "alt": "Happy friends holding clubs on the green"
       }
     ],
@@ -95,7 +90,7 @@ const config = {
       },
       {
         "icon": "fas fa-question-circle",
-        "title": "Answer 4 Quick Questions",
+        "title": "Answer 3 Quick Questions",
         "description": "Tell us a bit about your home plans."
       },
       {
@@ -124,8 +119,6 @@ const config = {
     ]
   },
   "rules": {
-    "finePrintText": "Please read the fine print before entering. Ontario residents only, must be 18 or older. One entry per person.",
-    "showTipsSection": true,
     "faq": [
       {
         "q": "Who can enter?",
@@ -158,6 +151,8 @@ const config = {
       "Follow @natalie_vanderwier on Instagram and Facebook for the winner post",
       "Share this with a golf buddy after you enter"
     ],
+    "finePrintText": "Please read the fine print before entering. Ontario residents only, must be 18 or older. One entry per person.",
+    "showTipsSection": true,
     "fairSelectionInfo": {
       "title": "Fair and Random Winner Selection",
       "text": "We use a random draw. Every valid entry has the same chance. No tricks. No bias."
@@ -178,7 +173,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1750445840887_0",
+      "id": "q_auto_1780411143584_0",
       "questionText": "What's your current situation?",
       "options": [
         {
@@ -200,7 +195,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1750445840887_1",
+      "id": "q_auto_1780411143584_1",
       "questionText": "What are you looking to do?",
       "options": [
         {
@@ -226,7 +221,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1750445840887_2",
+      "id": "q_auto_1780411143585_2",
       "questionText": "When are you planning to move?",
       "options": [
         {
@@ -252,6 +247,18 @@ const config = {
       ]
     }
   ],
+  "thankYouPage": {
+    "socialLinks": {
+      "facebook": "",
+      "instagram": "",
+      "twitter": "",
+      "tiktok": ""
+    },
+    "pageTitle": "Thank You for Your Entry!",
+    "headerText": "You're In the Running!",
+    "mainMessage": "Your entry for the <strong>Niagara Parks Golf + Dining Experience</strong> is in. We will draw the winner on July 1, 2026 and contact them by email and phone. Good luck!",
+    "socialPromptText": "Watch your inbox on July 1. Follow @natalie_vanderwier for the winner post."
+  },
   "footerContact": {
     "social": {
       "facebook": "https://www.facebook.com/profile.php?id=61589037725777",
